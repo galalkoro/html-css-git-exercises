@@ -1,16 +1,22 @@
 /* Add your own CSS code below */
 
-@media (min-width:768px) {
-    .countries {
-    columns: 2;
-    
-    }
-    
-    
-     }
-    
-     @media (min-width: 1200px) {
-         .countries{
-             columns: 4;
-         }
-     }
+/*first*/
+
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* second */
+
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
+
+/* third */
+
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+}
