@@ -1,1 +1,59 @@
 /* Add your own CSS code below */
+span.heart {
+  color: #ec0b0b;
+}
+
+.main-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label,
+legend {
+  font-weight: bold;
+}
+
+fieldset label {
+  line-height: 35px;
+}
+
+/*Media Query*/
+
+@media (min-width: 992px) {
+  article.hero h2.hero__title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*step six*/
+  article.views {
+    display: flex;
+    align-items: center;
+  }
+  article.views a:last-child {
+    margin-left: auto;
+  }
+
+  a.view-list__item {
+    margin-left: 25px;
+  }
+}
+
+/*step eleven*/
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article {
+  max-width: 50em;
+}
+.main-article p {
+  line-height: 1.9rem;
+}
